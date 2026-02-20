@@ -2,7 +2,7 @@ name: Update Plugin Registry
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - '**/manifest.json'
       - '.github/workflows/update-registry.js'
