@@ -1,0 +1,26 @@
+{
+  "id": "college-schedule",
+  "name": "College Schedule",
+  "version": "1.0.0",
+  "minNoctaliaVersion": "3.6.0",
+  "author": "Your Name",
+  "license": "MIT",
+  "description": "Widget for displaying college schedule from Open Schedule API",
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml",
+    "settings": "Settings.qml"
+  },
+  "dependencies": {
+    "plugins": []
+  },
+  "metadata": {
+    "defaultSettings": {
+      "baseUrl": "https://api.thisishyum.ru/schedule_api/tyumen",
+      "groupId": 1,
+      "displayMode": "timeRange",
+      "refreshInterval": 300,
+      "iconColor": "primary"
+    }
+  }
+}

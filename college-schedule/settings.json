@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://api.thisishyum.ru/schedule_api/tyumen",
+  "groupId": 161,
+  "displayMode": "timeRange",
+  "refreshInterval": 300,
+  "iconColor": "secondary"
+}
